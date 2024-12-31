@@ -307,6 +307,26 @@
             background-color: #00509e;
         }
 
+        /* Floating Button Styling */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 51, 102, 0.5); /* Added transparency (0.8) */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+}
+
+.floating-button:hover {
+    background-color: rgb(0, 51, 103); /* Added transparency (0.8) */
+    transform: scale(1.05);
+}
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -406,19 +426,19 @@
                 
 
             <div class="social-media">
-                <a href="https://www.facebook.com/yourprofile" class="social-icon facebook" target="_blank">
+                <!--<a href="https://www.facebook.com/yourprofile" class="social-icon facebook" target="_blank">
                     <i class="material-icons"><i class="fab fa-facebook"></i></i>
-                </a>
-                <a href="https://www.instagram.com/" class="social-icon instagram" target="_blank">
+                </a> -->
+                <a href="https://www.instagram.com/dufie_awo" class="social-icon instagram" target="_blank">
                     <i class="material-icons"><i class="fab fa-instagram"></i></i>
                 </a>
-                <a href="https://twitter.com/yourprofile" class="social-icon twitter" target="_blank">
+                <a href="https://x.com/awo_dufie" class="social-icon twitter" target="_blank">
                     <i class="material-icons"><i class="fab fa-twitter"></i></i>
                 </a>
-                <a href="https://www.youtube.com/yourchannel" class="social-icon youtube" target="_blank">
+                <a href="https://www.youtube.com/@Documenting_Queerness" class="social-icon youtube" target="_blank">
                     <i class="material-icons"><i class="fab fa-youtube"></i></i>
                 </a>
-                <a href="https://www.youtube.com/yourchannel" class="social-icon linkedin" target="_blank">
+                <a href="https://www.linkedin.com/in/awo-dufie-54821b280/" class="social-icon linkedin" target="_blank">
                     <i class="material-icons"><i class="fab fa-linkedin-in"></i></i>
                 </a>
             </div>
@@ -479,13 +499,13 @@
             <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
-        <div class="social-media">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        </div>
+       
     </section>
+
+    <!-- Floating Button -->
+    <a href="dashboard.html" class="floating-button">
+        Open Dashboard
+    </a>
 
     <!-- Footer -->
     <footer style="background-color: #003366; color: #ffffff; text-align: center; padding: 1rem 0; margin-top: 2rem;">
