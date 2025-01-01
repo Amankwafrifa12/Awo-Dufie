@@ -15,8 +15,8 @@
     <meta property="og:url" content="https://awodufie.com">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-    <title>Awo Dufie - Activist & Researcher</title>
+
+    <title>Awo Dufie - Queer Elders Speak</title>
     <style>
         /* General Reset */
         * {
@@ -171,35 +171,36 @@
 
 
         /* About Section */
-        .about-section {
+        .elders-section {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+            flex-direction: row-reverse;
             padding: 2rem;
             background-color: #f0f8ff;
             color: #003366;
         }
 
-        .about-text {
+        .elders-text {
             flex: 1 1 50%;
             padding: 1rem;
         }
 
-        .about-text h2 {
+        .elders-text h2 {
             margin-bottom: 1rem;
         }
 
-        .about-image {
+        .elders-image {
             flex: 1 1 50%;
             padding: 1rem;
             text-align: center;
         }
 
-        .about-image img {
-            max-width: 100%;
+        .elders-image img {
+            width: 100%;
             height: auto;
-            border-radius: 10px;
+
         }
 
         /* Projects Section */
@@ -323,11 +324,11 @@
                 display: flex;
             }
 
-            .about-section {
+            .elders-section {
                 flex-direction: column-reverse;
             }
 
-            .about-text {
+            .elders-text {
                 text-align: center;
             }
 
@@ -364,6 +365,7 @@
 
 <body>
     <!-- Header -->
+    <!-- Header -->
     <header>
         <div class="logo">
             <a href="index.html" style="text-decoration: none; color: white;">
@@ -372,12 +374,12 @@
         </div>
         <nav>
             <ul id="nav-links" class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#curation">Curation</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#research">Research</a></li>
+                <li><a href="curation.html#curation">Curation</a></li>
                 <li><a href="assets/resume.pdf" target="_blank">CV</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -386,18 +388,18 @@
             </div>
         </nav>
     </header>
-
     <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="about-text">
+    <section id="about" class="elders-section">
+        <div class="elders-text">
             <h2>Queer Elders Speak</h2>
-                <p>
-                Queer elders speak documents the lived experiences of gender diverse and queer elders. In this project, Awo interviews
+            <p>
+                Queer elders speak documents the lived experiences of gender diverse and queer elders. In this project,
+                Awo interviews
                 and seeks to document the lives of older queer people in Ghana.
-                </p>
+            </p>
         </div>
 
-        <div class="about-image">
+        <div class="elders-image">
             <img src="img/elder.jpg" alt="About Me">
         </div>
 
